@@ -1,0 +1,68 @@
+body {
+    background-color: #F0F0F0;
+    font-family: sans-serif;
+}
+
+h1, h3{
+    color: black;
+    text-align: center;
+}
+
+h5 {
+    padding-right: 100;
+    padding-left: 100
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+h4 {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 8;
+    overflow: hidden;
+}
+
+li a {
+    float: left;
+    padding: 10px 30px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	list-style: none;
+	padding-top:10px;
+}
+ul#horizontal-list li {
+    display: inline;
+}
+ul#horizontal-list img {
+    max-width: 20;
+}
+
