@@ -1,7 +1,6 @@
 # gadgetry
 
 ## Project description
-  ###  Learning basic PHP, JS, HTML5 & CSS
   
   #### Implementation PHP / JS
   1. User database
