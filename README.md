@@ -1,8 +1,16 @@
 # gadgetry
 
-### Project description : 
-  Learning and making a gadget website.
+## Project description
+  ###  Learning basic PHP, JS, HTML5 & CSS
   
+  #### Implementation PHP / JS
+  1. User database
+      1. Login
+      1. Members
+  1. Shopping cart
+      1. Items
+      1. Payment
+      
   ### Our team
   We aint got no team 
   
