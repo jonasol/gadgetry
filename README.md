@@ -1,4 +1,4 @@
 # gadgetry
 
-Project description : 
+## Project description : 
   Learning and making a gadget website.
