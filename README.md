@@ -1,7 +1,5 @@
 # gadgetry
 
-## Project description
-  
   #### Implementation PHP / JS
   1. User database
       1. Login
