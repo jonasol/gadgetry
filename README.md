@@ -9,7 +9,7 @@
       1. Payment
       
   ### Our team
-  We ain't got no team 
+  Two dorks named Jonas Olsen and Lars Fredrik Holst-Try
   
   ![alt text](  https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18870951_10203049260747825_1345273871_n.png?oh=baf7b1cdafb4b0387252cc6444157934&oe=593474CD )
   
