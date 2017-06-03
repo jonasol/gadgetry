@@ -37,7 +37,7 @@ html, body {
     cursor: pointer;
     text-decoration: none;
     color: rgb(250, 250, 250);
-    margin: 55%; /* opprinnelig 3%, bare for test */
+    margin: 3%;
 }
 #meny a:hover{
     color: #ffcb05;
