@@ -6,12 +6,14 @@ body {
                         KOLONNE
 ----------------------------------------------------------*/
 .column {
-  width:50%;
-  background-color:#212121;
-  height:99%;
-  float:left;
-  padding-top: 3%;
-  padding-bottom: 15%;
+    width:46%;
+    background-color:#212121;
+    height:30%;
+    float:left;
+    padding-top: 3%;
+    padding-bottom: 15%;
+    
+    
 }
 #footer p {
     color: rgb(250, 250, 250);
@@ -21,6 +23,43 @@ body {
                         LOGO PÅ FOOTER
 ----------------------------------------------------------*/
 #logonede {
-    height: 40%;
+    height: 25%;
     width: auto;
+}
+#footer p {
+    color: rgb(250, 250, 250);
+    width: 80%;
+}
+/* --------------------------------------------------------- 
+                        MENY OVERST
+----------------------------------------------------------*/
+#meny img {
+    position: absolute;
+    height: auto;
+    width: 70px;
+}
+#meny a {
+    font-size: 60%;
+}
+
+
+/* --------------------------------------------------------- 
+                  BANNER
+----------------------------------------------------------*/
+#bilde {
+    width: auto;
+    height: 20%;
+    margin-top: -3%;
+}
+
+
+/* --------------------------------------------------------- 
+                  HEADER-TEKST "NYE GADGETS"
+----------------------------------------------------------*/
+h1 { 
+    position: absolute;
+    top: 4%; 
+    left: 50%; 
+    width: 100%; 
+    font-size: 190%;
 }

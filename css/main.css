@@ -109,11 +109,10 @@ h1 {
 ----------------------------------------------------------*/
 footer {
     background-color: #212121;
-    padding:1.7%;
+    padding:0%;
     position: absolute;
     bottom:0%;
-    width:110%;
-    height:20%;
+    height:26%;
     min-height:20%;
     width:100%;
 }
@@ -148,10 +147,11 @@ footer {
                        FOOTER KOLONNER
 ----------------------------------------------------------*/
 .column {
-      width:15%;
+      width:20%;
       background-color:#212121;
-      height:100px;
+      height:100%;
       float:left;
+    padding: 0% 2%;
 }
 #footer p {
     color: rgb(250, 250, 250);
@@ -161,7 +161,7 @@ footer {
                         LOGO PÅ FOOTER
 ----------------------------------------------------------*/
 #logonede {
-    height: 40%;
+    height: 22%;
     width: auto;
 }
 
