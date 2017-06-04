@@ -1,0 +1,12 @@
+body {
+    color: red;
+}
+
+#meny img {
+    position: fixed;
+    height: auto;
+    width: 100%;
+}
+#meny a {
+    font-size: 60%;
+}
