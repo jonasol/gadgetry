@@ -10,7 +10,8 @@ body {
   background-color:#212121;
   height:99%;
   float:left;
-  padding-top: 4%;
+  padding-top: 3%;
+  padding-bottom: 15%;
 }
 #footer p {
     color: rgb(250, 250, 250);
