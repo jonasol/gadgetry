@@ -1,4 +1,4 @@
-# gadgetry
+  <img src="https://github.com/jonasol/gadgetry/blob/master/images/logo212121.png" width="138">
 
   #### Implementation PHP / JS / SQL
   1. User database
@@ -10,13 +10,6 @@
       
   ### Our team
   Two dorks named Jonas Olsen and Lars Fredrik Holst-Try
-  
-  ![alt text](  https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/18870951_10203049260747825_1345273871_n.png?oh=baf7b1cdafb4b0387252cc6444157934&oe=593474CD )
-  
+    
   ### Software we are using
   FTPloy, Slack, Brackets, Photoshop & CoreFTP
-  
-  
-  
-  
-  
