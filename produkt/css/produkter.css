@@ -1,5 +1,14 @@
-body {
+html, body {
     font-family: sans-serif;  
+    font-family: sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+    max-width: 1920;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 .wrapper {
@@ -26,7 +35,7 @@ body {
     text-align: center;
     color: #212121;
     background: #212121;
-    padding: 1%;
+    padding: 1.4%;
     margin-top: 0;
     margin-left: -8;
     margin-right: -8;
@@ -49,6 +58,7 @@ body {
     color: rgb(250, 250, 250);
     margin: 3%;
 }
+
 #meny a:hover{
     color: #ffcb05;
 }
