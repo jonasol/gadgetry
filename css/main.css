@@ -47,7 +47,7 @@ html, body {
                         FORSIDEBILDE
 ----------------------------------------------------------*/
 #bilde {
-    width: 110%;
+    width: 100%;
     margin-top: -0.8%;
 }
 
@@ -56,17 +56,18 @@ html, body {
 ----------------------------------------------------------*/
 h1 { 
     position: absolute;
-    top: 12%; 
+    top: 5%; 
     left: 48%; 
-    font-size: 400%;
+    font-size: 340%;
+    color: #212121;
 }
 /* --------------------------------------------------------- 
                         PRODUKTER-KNAPP
 ----------------------------------------------------------*/
 #banner a {
     position: absolute;
-    top: 32%; 
-    left: 58.8%; 
+    top: 23%; 
+    left: 55.8%; 
     width: auto; 
     font-size: 90%;
     text-decoration: none;
