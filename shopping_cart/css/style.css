@@ -5,6 +5,42 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 */
 /* Global settings */
 /* Global "table" column settings */
+
+/* --------------------------------------------------------- 
+                            HEADER
+----------------------------------------------------------*/
+#meny {
+    text-align: center;
+    color: #212121;
+    background: #212121;
+    padding: 1%;
+    margin-top: 0;
+    margin-left: -8;
+    margin-right: -8;
+}
+/* --------------------------------------------------------- 
+                         HEADER-LOGO
+----------------------------------------------------------*/
+#meny img {
+    cursor: pointer;
+    float: left;
+    height: auto;
+    width: 8%;
+}
+/* --------------------------------------------------------- 
+                Hjem - Butikk - Kundeservice
+----------------------------------------------------------*/
+#meny a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    margin: 3%;
+}
+#meny a:hover{
+    color: #ffcb05;
+}
+
+
 .product-image {
   float: left;
   width: 20%;
@@ -12,28 +48,29 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 
 .product-details {
   float: left;
-  width: 37%;
+  width: 30%;
 }
 
 .product-price {
   float: left;
-  width: 12%;
+  width: 15%;
 }
 
 .product-quantity {
   float: left;
-  width: 10%;
+  width: 7%;
 }
 
 .product-removal {
   float: left;
-  width: 9%;
+  width: 5%;
 }
 
 .product-line-price {
   float: left;
   width: 12%;
   text-align: right;
+  padding-right: 22px;
 }
 
 /* This is used as the traditional .clearfix class */
@@ -58,18 +95,19 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 /* Apply clearfix in a few places */
 /* Apply dollar signs */
 .product .product-price:before, .product .product-line-price:before, .totals-value:before {
-  content: '$';
+  content: 'kr ';
 }
 
 /* Body/Header stuff */
 body {
-  padding: 0px 30px 30px 20px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0px 0px 0px 0px;
+  font-family: sans-serif;
   font-weight: 100;
 }
 
 h1 {
   font-weight: 100;
+  padding-left: 25px;
 }
 
 label {
@@ -77,7 +115,6 @@ label {
 }
 
 .shopping-cart {
-  margin-top: -45px;
 }
 
 /* Column headers */
@@ -103,8 +140,9 @@ label {
   width: 100px;
 }
 .product .product-details .product-title {
-  margin-right: 20px;
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+    font-size: 140%;
+    margin-right: 20px;
+    font-family: sans-serif;
 }
 .product .product-details .product-description {
   margin: 5px 20px 5px 0;
@@ -118,7 +156,7 @@ label {
   padding: 4px 8px;
   background-color: #c66;
   color: #fff;
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+    font-family: sans-serif;
   font-size: 12px;
   border-radius: 3px;
 }
@@ -136,31 +174,33 @@ label {
 .totals .totals-item label {
   float: left;
   clear: both;
-  width: 79%;
+  width: 80%;
   text-align: right;
 }
 .totals .totals-item .totals-value {
-  float: right;
-  width: 21%;
+  float: left;
+  width: 10%;
   text-align: right;
 }
 .totals .totals-item-total {
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+    font-family: sans-serif;
 }
 
 .checkout {
   float: right;
   border: 0;
-  margin-top: 20px;
-  padding: 6px 25px;
-  background-color: #6b6;
+  margin-top: 120px;
+  padding: 10px 29px;
+  background-color: #000;
   color: #fff;
   font-size: 25px;
-  border-radius: 3px;
+  border-radius: 6px;
+  position: absolute;
+  margin-left: 84%;
 }
 
 .checkout:hover {
-  background-color: #494;
+  background-color: #ffcb05;
 }
 
 /* Make adjustments for tablet */
@@ -238,3 +278,67 @@ label {
     width: 40%;
   }
 }
+
+/* --------------------------------------------------------- 
+                            FOOTER
+----------------------------------------------------------*/
+footer {
+    background-color: #212121;
+    padding: 0%;
+    position: absolute;
+    bottom: 0%;
+    height: 20%;
+    min-height: 24%;
+    width: 100%;
+}
+
+/* --------------------------------------------------------- 
+                          FOOTER-MEDIA
+----------------------------------------------------------*/
+#footer media {
+    padding-top: 2.3%;
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    font-size: 20px;
+    width: 20px;
+    margin: 0.9%;
+}
+#footer a {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #ffcb05;
+}
+#footer media:hover {
+    color: #ffcb05;
+    cursor: pointer;
+}
+#footer ul {
+    color: rgb(250, 250, 250);
+    margin: 1%;
+}
+/* --------------------------------------------------------- 
+                       FOOTER KOLONNER
+----------------------------------------------------------*/
+.column {
+      margin-top: 18px;
+      width:20%;
+      background-color:#212121;
+      height:80%;
+      float:left;
+      padding: 0%2.5%;
+}
+
+#footer p {
+    color: rgb(250, 250, 250);
+}
+
+/* --------------------------------------------------------- 
+                        LOGO PÅ FOOTER
+----------------------------------------------------------*/
+#logonede {
+    height: 22%;
+    width: auto;
+}
+
