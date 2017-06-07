@@ -13,7 +13,7 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
     text-align: center;
     color: #212121;
     background: #212121;
-    padding: 1%;
+    padding: 1.4%;
     margin-top: 0;
     margin-left: -8;
     margin-right: -8;
@@ -99,10 +99,16 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 }
 
 /* Body/Header stuff */
-body {
-  padding: 0px 0px 0px 0px;
-  font-family: sans-serif;
-  font-weight: 100;
+html, body {
+    font-family: sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+    max-width: 1920;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 h1 {
