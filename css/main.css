@@ -16,7 +16,7 @@ html, body {
     text-align: center;
     color: #212121;
     background: #212121;
-    padding: 1%;
+    padding: 1.4%;
     margin-top: 0;
     margin-left: -8;
     margin-right: -8;
@@ -48,7 +48,7 @@ html, body {
 ----------------------------------------------------------*/
 #bilde {
     width: 110%;
-    margin-top: -1%;
+    margin-top: -0.8%;
 }
 
 /* --------------------------------------------------------- 
