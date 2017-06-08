@@ -6,6 +6,39 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
 /* Global settings */
 /* Global "table" column settings */
 
+html, body {
+    font-family: sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+    max-width: 1920;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+/* --------------------------------------------------------- 
+                        FORSIDEBILDE
+----------------------------------------------------------*/
+#bilde {
+    text-align: center;
+    width: 100%;
+    margin-top: -0.8%;
+}
+
+/* --------------------------------------------------------- 
+                  HEADER-TEKST "KUNDESERVICE"
+----------------------------------------------------------*/
+h1 { 
+    text-align: center;
+    position: absolute;
+    top: 17%; 
+    left: 40%; 
+    color: #212121;
+    font-weight: 500;
+}
+
 /* --------------------------------------------------------- 
                             HEADER
 ----------------------------------------------------------*/
@@ -98,30 +131,10 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
   content: 'kr ';
 }
 
-/* Body/Header stuff */
-html, body {
-    font-family: sans-serif;
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: auto;
-    max-width: 1920;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-h1 {
-  font-weight: 100;
-  padding-left: 25px;
-}
-
 label {
   color: #aaa;
 }
 
-.shopping-cart {
-}
 
 /* Column headers */
 .column-labels label {
@@ -294,6 +307,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 230px;
+    top: 1000px
 }
 
 /* --------------------------------------------------------- 
