@@ -10,7 +10,7 @@ html, body {
 }
 
 .menu { 
-    background: #4a75e6;
+    background: #ea2533;
     text-align: center; 
 }
 
@@ -36,7 +36,17 @@ a:hover {
     margin-top: 8px;
 }
 
-.kogf {
-    width: 80%;
-    margin-left: 10%;
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+h4 {
+    position: absolute;
+    font-size: 33px;
+    color: #2e3445;
+    text-align: center;
+    margin-top: 340px;
+    left: 800px;
 }

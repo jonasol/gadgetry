@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html, body {
+    font-family: 'Open Sans';
+    max-width: 1920;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.menu { 
+    background: #08ae22;
+    text-align: center; 
+}
+
+.menu ul { 
+    display:inline-table; 
+}
+
+.menu a {
+     color: aliceblue;
+     text-decoration: none;
+     display:inline;
+     margin: 40px;
+}
+
+a:hover {
+    color: #2e3445;
+}
+
+.logo {
+    width: 7%;
+    position: absolute;
+    left: 15%;
+    margin-top: 8px;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.headerBilde {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.list {
+  position: absolute;
+  cursor: pointer;
+  top: 380px;
+  left: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid {
+  cursor: pointer;
+  position: absolute;
+  top: 440px;
+  left: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.oppsett a {
+    position: absolute;
+    top: 400px;
+    left: 295px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
