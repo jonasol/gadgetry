@@ -3,10 +3,10 @@
   #### Implementation PHP / JS / SQL
   1. User database
       1. Login
-      1. Members
-  1. Shopping cart
+      2. Members
+  2. Shopping cart
       1. Items
-      1. Payment
+      2. Payment
       
   ### Our team
   Two dorks named Jonas Olsen and Lars Fredrik Holst-Try
